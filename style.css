@@ -17,43 +17,37 @@ body{
     margin: 0;
     padding: 0;
 }
-
-.header{
-    font-size: 4rem;
-    font-style: italic;
-    margin-top: 5rem;
-}
-
 .countdown-container{
     display: flex;
 }
 
 .big-text{
-    font-size: 6rem;
+    font-size: 3rem;
     line-height: 1;
     margin: 0 2rem;
+    display: flex;
+    font-weight: 600;
+    
 }
 
 .small-text{
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 1;
-    margin: 0.1rem 2rem;
+    margin: 0.3rem;
     text-align: center;
-
-}
-
-.days-container{
-    display: flex;
-    flex-direction: column;
+    font-weight: 700;
     align-items: center;
     justify-content: center;
 }
 
-.hours-container{
+article{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 2rem;
+    font-style: italic;
+    font-weight: 500;
 }
 
 .minutes-container{
@@ -70,12 +64,68 @@ body{
     justify-content: center;
 }
 
-article{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem;
-    font-style: italic;
-    font-weight: 500;
+@media(min-width: 768px){
+    .header{
+        font-size: 4rem;
+        font-style: italic;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+    
+    .countdown-container{
+        display: flex;
+    }
+    
+    .big-text{
+        font-size: 6rem;
+        line-height: 1;
+        margin: 0 2rem;
+    }
+    
+    .small-text{
+        font-size: 2rem;
+        line-height: 1;
+        margin: 0.1rem 2rem;
+        text-align: center;
+    
+    }
+    
+    
+    .days-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .hours-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .minutes-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .seconds-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem;
+        font-style: italic;
+        font-weight: 500;
+    }
 }
