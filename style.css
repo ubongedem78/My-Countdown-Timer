@@ -5,8 +5,6 @@
 body{
     background-image: url(./sun.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -15,81 +13,77 @@ body{
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0;
+    
+}
+h1{
+    font-size: 4rem;
+    font-weight: bold;
+  justify-content: center;
+  font-style: italic;
+  margin-bottom: 10px;
+  position: relative;
+  margin-left: -20px;
+    
 }
 .countdown-container{
     display: flex;
 }
 
 .big-text{
+    margin: 0;
     font-size: 3rem;
-    line-height: 1;
-    margin: 0 2rem;
+
+    
     display: flex;
     font-weight: 600;
+    align-items: center;
+    justify-content: space-evenly;
     
 }
 
 .small-text{
     font-size: 1rem;
-    line-height: 1;
-    margin: 0.3rem;
+    
+    margin:0 2rem;
+    justify-content: center;
     text-align: center;
     font-weight: 700;
-    align-items: center;
-    justify-content: center;
 }
 
 article{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem;
+
     font-style: italic;
     font-weight: 500;
 }
 
-.minutes-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.seconds-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
 @media(min-width: 576px){
     .header{
         font-size: 4rem;
         font-style: italic;
         margin-top: 5rem;
-        margin-bottom: 3rem;
+        position: relative;
     }
     
     .countdown-container{
         display: flex;
+        max-width: 1440px;
     }
     
     .big-text{
-        font-size: 6rem;
+        font-size: 4rem;
         line-height: 1;
         margin: 0 2rem;
     }
     
     .small-text{
-        font-size: 2rem;
+        font-size: 1.5rem;
         line-height: 1;
         margin: 0.1rem 2rem;
         text-align: center;
     
     }
-    
     
     .days-container{
         display: flex;
