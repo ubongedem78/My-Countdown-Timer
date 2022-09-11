@@ -1,82 +1,81 @@
-* {
+*{
     box-sizing: border-box;
 }
 
-header {
-    color: #000000;
-    padding: 10px;
-    text-align: center;
-    justify-content: center;
-    font-size: 25px;
-    font-style: italic;
-}
-
-body {
+body{
     background-image: url(./sun.jpg);
-    min-height: 100vh;
     background-size: cover;
-    background-position: center center;
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    font-size: 4rem;
+    font-style: italic;
+    margin-top: 5rem;
 }
 
 .countdown-container{
     display: flex;
-    
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.small-text{
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0.1rem 2rem;
     text-align: center;
-    justify-content: center;
-    
 
 }
 
 .days-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    flex: 1;
+    justify-content: center;
 }
 
 .hours-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    flex: 1;
+    justify-content: center;
 }
 
 .minutes-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    flex: 1;
+    justify-content: center;
 }
 
 .seconds-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    flex: 1;
+    justify-content: center;
 }
 
-.big-text{
-    font-size: 60px;
-    font-weight: 600;
-    margin: 0 2rem;
-    text-align: center;
-}
-
-.small-text{
-    font-size: 20px;
-    font-weight: normal;
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
     font-style: italic;
-    margin: 1rem;
-    text-align: center;
-
+    font-weight: 500;
 }

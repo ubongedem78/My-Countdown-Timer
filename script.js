@@ -1,4 +1,4 @@
-const anniversaryDate = new Date('1 January, 2023');
+const anniversaryDate = new Date('20 June, 2023');
 const dayEl = document.getElementById("days");
 const hoursEl = document.getElementById('hours');
 const minutesEl = document.getElementById('minutes');
